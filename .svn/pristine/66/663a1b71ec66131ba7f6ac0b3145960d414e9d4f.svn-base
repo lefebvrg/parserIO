@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>crih_projets</groupId>
+    <artifactId>pom_project_jar</artifactId>
+    <version>2.01</version>
+  </parent>
+
+  <repositories>
+    <repository>
+      <id>crih-repository</id>
+      <name>CRIH Repository</name>
+      <url>http://maven:8081/nexus/content/repositories/crih/</url>
+    </repository>
+  </repositories>
+
+  <!-- identique au project.xml, avec ajout du packaging -->
+  <artifactId>parserIO</artifactId>
+  <packaging>jar</packaging>
+  <version>2.1</version>
+  <name>ParserIO</name>
+  <description>ParserIO</description>
+  <url>http://subversion/dev/composants/technique/java/parserIO</url>
+
+  <developers>
+    <developer>
+      <name>Guillaume Lefebvre</name>
+      <id>lefebvrg</id>
+      <email>guillaume.lefebvre@chru-strasbourg.fr</email>
+      <organization>Pole Projets</organization>
+    </developer>
+  </developers>
+ 
+  <dependencies>
+    <!-- CRIH ASI -->
+    <dependency>
+      <groupId>crih_asi</groupId>
+      <artifactId>dates</artifactId>
+      <version>1.64</version>
+      <scope>provided</scope>
+    </dependency>
+    <!-- Utilise par ToStringBuilder -->
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.6</version>
+      <scope>provided</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20220320</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>xmlunit</groupId>
+      <artifactId>xmlunit</artifactId>
+      <version>1.6</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

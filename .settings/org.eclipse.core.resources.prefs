@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/main/java=iso-8859-15
+encoding//src/main/java/fr/chru/strasbourg/objects/parserIO/ParserIO.java=ISO-8859-1
+encoding//src/main/resources=iso-8859-15
+encoding//src/test/java=iso-8859-15
+encoding//src/test/java/fr/chru/strasbourg/test/parserIO/DeltaCodeBarre.java=ISO-8859-1
+encoding//src/test/java/fr/chru/strasbourg/test/parserIO/ParserIOGenereXML.java=ISO-8859-1
