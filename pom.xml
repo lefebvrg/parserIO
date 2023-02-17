@@ -3,6 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <!-- identique au project.xml, avec ajout du packaging -->
+  <groupId>crih_projet<groupId>
   <artifactId>parserIO</artifactId>
   <packaging>jar</packaging>
   <version>2.2</version>
