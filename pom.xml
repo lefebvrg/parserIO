@@ -2,20 +2,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>crih_projets</groupId>
-    <artifactId>pom_project_jar</artifactId>
-    <version>2.01</version>
-  </parent>
-
-  <repositories>
-    <repository>
-      <id>crih-repository</id>
-      <name>CRIH Repository</name>
-      <url>http://maven:8081/nexus/content/repositories/crih/</url>
-    </repository>
-  </repositories>
-
   <!-- identique au project.xml, avec ajout du packaging -->
   <artifactId>parserIO</artifactId>
   <packaging>jar</packaging>
