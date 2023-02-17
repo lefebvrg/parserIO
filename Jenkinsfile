@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-	SONAR_HOST_URL='=http://localhost:9000'
+	SONAR_HOST_URL='http://localhost:9000'
 	SONAR_LOGIN='sqp_39ae46a3a169333a456e80c6ca9f81da7043cb41'
     }
     stages {
