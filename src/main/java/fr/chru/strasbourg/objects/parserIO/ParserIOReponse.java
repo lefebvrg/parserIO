@@ -2,15 +2,12 @@ package fr.chru.strasbourg.objects.parserIO;
 
 import java.util.List;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
 import fr.chru.strasbourg.objects.parserIO.CodeBarreStructure;
 
 /**
  * 
  * @author Guillaume Lefebvre
  */
-@XmlRootElement
 public class ParserIOReponse {
 
   private CodeBarreStructure codeBarreStructure;
